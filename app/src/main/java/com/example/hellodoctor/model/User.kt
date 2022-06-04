@@ -1,4 +1,4 @@
-package com.example.hellodoctor.core.model
+package com.example.hellodoctor.model
 
 import timber.log.Timber
 

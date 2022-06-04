@@ -1,4 +1,4 @@
-package com.example.hellodoctor.core.model
+package com.example.hellodoctor.model
 
 import com.example.hellodoctor.utils.generateRandomString
 import java.io.Serializable

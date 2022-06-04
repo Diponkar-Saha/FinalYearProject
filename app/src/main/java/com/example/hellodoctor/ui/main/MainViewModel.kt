@@ -4,12 +4,12 @@ import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.hellodoctor.video.core.Result
+import com.example.hellodoctor.core.Result
 import com.example.hellodoctor.core.repository.meeting.MeetingRepo
 import com.example.hellodoctor.core.repository.theme.ThemeRepo
 import com.example.hellodoctor.core.repository.user.UserRepo
-import com.example.hellodoctor.video.core.succeeded
-import com.example.hellodoctor.video.jitsi.destroyJitsi
+import com.example.hellodoctor.core.succeeded
+import com.example.hellodoctor.jitsi.destroyJitsi
 import com.example.hellodoctor.utils.Theme
 import com.example.hellodoctor.utils.toTheme
 import dagger.hilt.android.lifecycle.HiltViewModel

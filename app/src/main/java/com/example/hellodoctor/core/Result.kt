@@ -1,4 +1,4 @@
-package com.example.hellodoctor.video.core
+package com.example.hellodoctor.core
 
 
 sealed class Result<out R> {

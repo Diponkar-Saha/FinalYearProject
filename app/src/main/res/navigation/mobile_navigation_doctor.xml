@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_doctor"
+    app:startDestination="@+id/doctorDashFragment">
+
+
+    <fragment
+        android:id="@+id/doctorDashFragment"
+        android:name="com.example.hellodoctor.ui.doctor.DoctorDashFragment"
+        android:label="fragment_doctor_dash"
+        tools:layout="@layout/fragment_doctor_dash" />
+    <fragment
+        android:id="@+id/doctorProfileEditFragment"
+        android:name="com.example.hellodoctor.ui.doctor.DoctorProfileEditFragment"
+        android:label="fragment_doctor_profile_edit"
+        tools:layout="@layout/fragment_doctor_profile_edit" >
+        <action
+            android:id="@+id/action_doctorProfileEditFragment_to_doctorProfileFragment"
+            app:destination="@id/doctorProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/doctorProfileFragment"
+        android:name="com.example.hellodoctor.ui.doctor.DoctorProfileFragment"
+        android:label="fragment_doctor_profile"
+        tools:layout="@layout/fragment_doctor_profile" >
+        <action
+            android:id="@+id/action_doctorProfileFragment_to_doctorProfileEditFragment"
+            app:destination="@id/doctorProfileEditFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,77 @@
+package com.example.hellodoctor.ui.cohorts.newmember
+
+import android.os.Bundle
+import android.os.CountDownTimer
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.Observer
+import com.example.hellodoctor.databinding.FragmentAddNewMemberBinding
+import com.example.hellodoctor.core.model.Cohort
+import com.example.hellodoctor.utils.snackbar
+import com.google.android.material.bottomsheet.BottomSheetDialogFragment
+import com.google.android.material.snackbar.Snackbar
+import dagger.hilt.android.AndroidEntryPoint
+import timber.log.Timber
+
+
+@AndroidEntryPoint
+class AddNewMemberFragment : BottomSheetDialogFragment() {
+
+    private lateinit var binding: FragmentAddNewMemberBinding
+    private lateinit var cohort: Cohort
+    private val addNewMemberViewModel: AddNewMemberViewModel by viewModels()
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
+        // Inflate the layout for this fragment
+        Timber.d("onCreateView")
+        binding = FragmentAddNewMemberBinding.inflate(inflater)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        Timber.d("onViewCreated")
+        binding.apply {
+            doneAddMemberButton.setOnClickListener {
+                addUserToCohort()
+            }
+            cancelAddMemberButton.setOnClickListener {
+                dismiss()
+            }
+        }
+        arguments?.let {
+            cohort = AddNewMemberFragmentArgs.fromBundle(it).cohort!!
+        }
+
+        addNewMemberViewModel.snackbarMessage.observe(viewLifecycleOwner, Observer { event ->
+            event.getContentIfNotHandled()?.let {
+                binding.fragmentAddNewMemberRootLayout.snackbar(it)
+            }
+        })
+
+    }
+
+    private fun addUserToCohort() {
+        val id = addNewMemberViewModel.getUseremail().email
+        binding.enterEmailEt.text =id
+        if (id.isNotEmpty()) {
+            Timber.d("addUserToCohort")
+            addNewMemberViewModel.addNewMemberToCohort(cohort, id)
+
+            // display a snackbar then dismiss the dialog
+            object : CountDownTimer(3000L, 1000L) {
+                override fun onTick(millisUntilFinished: Long) {
+                }
+
+                override fun onFinish() {
+                    dismiss()
+                }
+            }.start()
+        }
+    }
+
+}

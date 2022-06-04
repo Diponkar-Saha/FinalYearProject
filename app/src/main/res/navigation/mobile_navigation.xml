@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/notiFragment"
+        android:name="com.example.hellodoctor.ui.publicuser.NotiFragment"
+        android:label="fragment_noti"
+        tools:layout="@layout/fragment_noti" />
+    <fragment
+        android:id="@+id/dashBoardFragment"
+        android:name="com.example.hellodoctor.ui.publicuser.DashBoardFragment"
+        android:label="fragment_dash_board"
+        tools:layout="@layout/fragment_dash_board" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.hellodoctor.ui.publicuser.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_userViewDoctorFragment"
+            app:destination="@id/userViewDoctorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userViewDoctorFragment"
+        android:name="com.example.hellodoctor.ui.publicuser.UserViewDoctorFragment"
+        android:label="fragment_user_view_doctor"
+        tools:layout="@layout/fragment_user_view_doctor" >
+        <action
+            android:id="@+id/action_userViewDoctorFragment_to_userAppointmentFragment"
+            app:destination="@id/userAppointmentFragment" />
+        <action
+            android:id="@+id/action_userViewDoctorFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="doctorProfile"
+            app:argType="com.example.cohorts.model.topdoctor.AllDoctor" />
+    </fragment>
+    <fragment
+        android:id="@+id/userAppointmentFragment"
+        android:name="com.example.hellodoctor.ui.publicuser.UserAppointmentFragment"
+        android:label="UserAppointmentFragment"
+        tools:layout="@layout/fragment_user_appointment">
+        <action
+            android:id="@+id/action_userAppointmentFragment_to_dashBoardFragment"
+            app:destination="@id/dashBoardFragment" />
+        <action
+            android:id="@+id/action_userAppointmentFragment_to_userViewDoctorFragment"
+            app:destination="@id/userViewDoctorFragment" />
+        <argument
+            android:name="doc"
+            app:argType="com.example.cohorts.model.topdoctor.AllDoctor" />
+    </fragment>
+</navigation>

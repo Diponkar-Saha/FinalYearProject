@@ -1,0 +1,410 @@
+[
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_heart.png.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable-v24\\heart.png"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo_b.png.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable-v24\\logo_b.png"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ttyyround.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\ttyyround.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_zoomed_image.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_zoomed_image.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\anim_scale_in.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\anim\\scale_in.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_navigation_menu.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\menu\\bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\font_rubik_bold.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\font\\rubik_bold.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_timetable.png.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\timetable.png"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cohorts_signin_logo.png.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\cohorts_signin_logo.png"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_user_view_doctor.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_user_view_doctor.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_home_black_24dp.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable-v24\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\menu_task_detail_menu.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\menu\\task_detail_menu.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_outline_add_photo_alternate_24.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\outline_add_photo_alternate_24.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu_doctor.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\menu\\bottom_nav_menu_doctor.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_doctor_profile.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_doctor_profile.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\font_rubik_medium.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\font\\rubik_medium.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_files.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\ic_files.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_noti.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_noti.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\menu_tasks_fragment_menu.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\menu\\tasks_fragment_menu.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_delete.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_edit_text_shadow.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable-night\\edit_text_shadow.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\font_rubik.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\font\\rubik.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_info_user.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\item_info_user.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_video_call.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\ic_video_call.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_message_purple.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\rounded_message_purple.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_cohort_info.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_cohort_info.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_new_task.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_add_new_task.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_tasks.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\ic_tasks.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_new_member.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_add_new_member.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\font_shrikhand.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\font\\shrikhand.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cursor_color.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\cursor_color.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\menu_chat_fragment_menu.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\menu\\chat_fragment_menu.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_top_doctor.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\top_doctor.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_settings.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_message_gray.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\rounded_message_gray.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_outline_send_gray_24.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\outline_send_gray_24.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_doctor.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\activity_doctor.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dr_register.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\activity_dr_register.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_task_detail.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_task_detail.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_no_active_tasks.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable-v24\\ic_no_active_tasks.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_patient_appointment.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\patient_appointment.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chat.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\ic_chat.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_app_icon.png.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable-v24\\app_icon.png"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\font_libre_franklin_bold.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\font\\libre_franklin_bold.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_outline_send_24.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\outline_send_24.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_doc.png.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\doc.png"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sample_img.png.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable-v24\\sample_img.png"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cancel.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\ic_cancel.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_progress_dialog.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_special_item.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\special_item.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cohorts_splash_1.jpg.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable-v24\\cohorts_splash_1.jpg"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_public_login.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\activity_public_login.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_cohort.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\item_cohort.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_doctor_profile_edit.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_doctor_profile_edit.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_doctor_dash.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_doctor_dash.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\menu_add_cohort_fragment_menu.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\menu\\add_cohort_fragment_menu.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cohort.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\ic_cohort.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\anim_scale_out.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\anim\\scale_out.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dr_login.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\activity_dr_login.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dash_board.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_dash_board.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_chat.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_chat.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_public_register.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\activity_public_register.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_account_circle_black_36dp.png.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\ic_account_circle_black_36dp.png"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_text_shadow.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\edit_text_shadow.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_online.png.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\online.png"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_tttt.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable-v24\\tttt.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_cohorts.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_cohorts.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_chat_image_received.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\item_chat_image_received.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_user_appointment.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_user_appointment.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_tasks.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_tasks.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\font_libre_franklin_thin.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\font\\libre_franklin_thin.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_chat_text_received.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\item_chat_text_received.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_done.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\ic_done.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_half_circle.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable\\half_circle.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_chat_text_sent.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\item_chat_text_sent.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_new_cohort.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\fragment_add_new_cohort.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\menu_overflow_menu.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\menu\\overflow_menu.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_publ_user.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\activity_publ_user.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation_doctor.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\navigation\\mobile_navigation_doctor.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_no_completed_tasks.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable-v24\\ic_no_completed_tasks.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_chat_image_sent.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\item_chat_image_sent.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_dropdown_item.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\dropdown_item.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_tasks.xml.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\layout\\item_tasks.xml"
+    },
+    {
+        "merged": "G:\\HelloDoctor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cohorts_splash_2.jpg.flat",
+        "source": "G:\\HelloDoctor\\app\\src\\main\\res\\drawable-v24\\cohorts_splash_2.jpg"
+    }
+]

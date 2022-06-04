@@ -1,0 +1,83 @@
+package com.example.hellodoctor.video.ui.splash
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.view.View
+import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.Observer
+import androidx.lifecycle.lifecycleScope
+import com.example.hellodoctor.ui.login.PublicLoginActivity
+import com.example.hellodoctor.R
+import com.example.hellodoctor.databinding.ActivitySplashScreenBinding
+import com.example.hellodoctor.video.ui.main.MainActivity
+import com.example.hellodoctor.ui.splash.SplashViewModel
+import com.example.hellodoctor.utils.Theme
+import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+
+/**
+ * Displays the Splash screen
+ */
+@AndroidEntryPoint
+class SplashScreenActivity : AppCompatActivity() {
+
+    private val viewModel: SplashViewModel by viewModels()
+    private lateinit var binding: ActivitySplashScreenBinding
+    private var isUserLoggedIn = false
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_splash_screen)
+
+        // Hide the status bar.
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+        actionBar?.hide()
+       // subscribeToObservers()
+        lifecycleScope.launch {
+            delay(3000)
+            var intent = Intent(this@SplashScreenActivity, PublicLoginActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+    }
+
+    private fun subscribeToObservers() {
+        viewModel.isUserLoggedIn.observe(this, { value ->
+            isUserLoggedIn = value
+        })
+        viewModel.navigate.observe(this, Observer { event ->
+            event.getContentIfNotHandled()?.let {
+                if (it) {
+                    if (isUserLoggedIn) {
+                        viewModel.initialiseCurrentUser()
+                        val intent = Intent(this, MainActivity::class.java)
+                        startActivity(intent)
+                    } else {
+                        val intent = Intent(this, PublicLoginActivity::class.java)
+                        startActivity(intent)
+                    }
+                    finish()
+                }
+            }
+        })
+        // get the saved theme value and then change the app theme
+        viewModel.appTheme.observe(this, { theme ->
+            changeAppTheme(theme)
+        })
+    }
+
+    private fun changeAppTheme(theme: Theme) {
+        when (theme) {
+            Theme.LIGHT -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+            Theme.DARK -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+            else -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
+        }
+    }
+
+}

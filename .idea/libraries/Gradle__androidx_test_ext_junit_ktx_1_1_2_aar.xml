@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.test.ext:junit-ktx:1.1.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6708890cc5bfd8cbc7a8a6f23a5d84cb/jetified-junit-ktx-1.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c8cafd3e8457061c10c556421d5f53fc/jetified-junit-ktx-1.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/faa2a11955b6d842e38125110270f6ec/jetified-junit-ktx-1.1.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cdd76dcbedcd80f0801256babecf1753/jetified-junit-ktx-1.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cdd76dcbedcd80f0801256babecf1753/jetified-junit-ktx-1.1.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cdd76dcbedcd80f0801256babecf1753/jetified-junit-ktx-1.1.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test.ext/junit-ktx/1.1.2/44ccc8098448ed31a826f4f686d020614d65b6ac/junit-ktx-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

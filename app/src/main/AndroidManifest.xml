@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hellodoctor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.example.hellodoctor.CohortsApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cohorts">
+        <activity
+            android:name="com.example.hellodoctor.ui.publicuser.PublUserActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hellodoctor.ui.doctor.DoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hellodoctor.ui.register.DrRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hellodoctor.ui.login.DrLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hellodoctor.ui.register.PublicRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hellodoctor.ui.login.PublicLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hellodoctor.ui.login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.hellodoctor.video.ui.splash.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hellodoctor.video.ui.main.MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

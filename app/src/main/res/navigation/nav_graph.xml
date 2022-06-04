@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cohortsFragment">
+
+    <fragment
+        android:id="@+id/cohortsFragment"
+        android:name="com.example.hellodoctor.video.ui.cohorts.CohortsFragment"
+        android:label="@string/cohort_label">
+        <action
+            android:id="@+id/cohorts_to_addNewCohorts"
+            app:destination="@id/addNewCohort"
+            app:enterAnim="@anim/scale_in"
+            app:popExitAnim="@anim/scale_out"/>
+        <action
+            android:id="@+id/action_cohortTo_profile"
+            app:destination="@id/profileFragment"
+            app:enterAnim="@anim/scale_in"
+            app:popExitAnim="@anim/scale_out"/>
+        <action
+            android:id="@+id/action_cohortTo_chat"
+            app:destination="@id/chatFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.hellodoctor.ui.chat.ChatFragment"
+        android:label="@string/chat_label" >
+        <argument
+            android:name="cohort"
+            app:argType="com.example.cohorts.core.model.Cohort"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_chat_to_addNewMember"
+            app:destination="@id/addNewMemberFragment" />
+        <action
+            android:id="@+id/action_chat_to_cohortInfo"
+            app:destination="@id/cohortInfoFragment"
+            app:enterAnim="@anim/scale_in"
+            app:popExitAnim="@anim/scale_out"/>
+        <action
+            android:id="@+id/action_chat_to_detailedImage"
+            app:destination="@id/zoomedImageFragment" />
+        <action
+            android:id="@+id/action_chat_to_tasks"
+            app:destination="@+id/tasksFragment"
+            app:enterAnim="@anim/scale_in"
+            app:popExitAnim="@anim/scale_out"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/tasksFragment"
+        android:name="com.example.hellodoctor.ui.tasks.TasksFragment"
+        android:label="@string/tasks">
+        <argument
+            android:name="cohort"
+            app:argType="com.example.cohorts.core.model.Cohort"
+            app:nullable="true"
+            android:defaultValue="@null"/>
+        <action
+            android:id="@+id/action_task_to_add_task"
+            app:destination="@+id/addNewTaskFragment"
+            app:enterAnim="@anim/scale_in"
+            app:popExitAnim="@anim/scale_out"/>
+        <action
+            android:id="@+id/action_task_to_task_detail"
+            app:destination="@id/taskDetailFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/addNewTaskFragment"
+        android:name="com.example.hellodoctor.ui.tasks.addNewTask.AddNewTaskFragment"
+        android:label="@string/new_task">
+        <argument
+            android:name="cohort"
+            app:argType="com.example.cohorts.core.model.Cohort"
+            app:nullable="true"
+            android:defaultValue="@null"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/taskDetailFragment"
+        android:name="com.example.hellodoctor.ui.tasks.taskdetail.TaskDetailFragment"
+        android:label="@string/task_detail">
+        <argument
+            android:name="task"
+            app:argType="com.example.cohorts.core.model.Task"
+            app:nullable="true"
+            android:defaultValue="@null"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/addNewCohort"
+        android:name="com.example.hellodoctor.video.ui.cohorts.newcohort.AddNewCohort"
+        android:label="@string/add_new_cohort" />
+
+    <dialog
+        android:id="@+id/addNewMemberFragment"
+        android:name="com.example.hellodoctor.ui.cohorts.newmember.AddNewMemberFragment"
+        android:label="AddNewMemberFragment" >
+        <argument
+            android:name="cohort"
+            app:argType="com.example.cohorts.core.model.Cohort"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </dialog>
+
+    <fragment
+        android:id="@+id/cohortInfoFragment"
+        android:name="com.example.hellodoctor.video.ui.info.CohortInfoFragment"
+        android:label="Info" >
+        <argument
+            android:name="cohort"
+            app:argType="com.example.cohorts.core.model.Cohort"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/zoomedImageFragment"
+        android:name="com.example.hellodoctor.ui.zoomedimage.ZoomedImageFragment">
+        <argument
+            android:name="imageUrl"
+            android:defaultValue="null"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.hellodoctor.ui.profile.ProfileFragment"
+        android:label="@string/profile" >
+    </fragment>
+
+</navigation>

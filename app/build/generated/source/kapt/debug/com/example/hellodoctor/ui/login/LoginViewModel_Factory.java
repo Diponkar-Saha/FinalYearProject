@@ -2,6 +2,8 @@
 package com.example.hellodoctor.ui.login;
 
 import com.example.hellodoctor.core.repository.user.UserRepo;
+import com.example.hellodoctor.viewmodel.LoginViewModel;
+
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
 import javax.inject.Provider;

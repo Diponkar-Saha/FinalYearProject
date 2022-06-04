@@ -11,7 +11,7 @@ import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.hellodoctor.databinding.FragmentDoctorDashBinding
 import com.example.hellodoctor.model.report.rr.ReportResult
-import com.example.hellodoctor.video.ui.main.MainActivity
+import com.example.hellodoctor.ui.main.MainActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

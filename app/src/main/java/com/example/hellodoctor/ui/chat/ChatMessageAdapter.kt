@@ -5,7 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ProgressBar
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
-import com.example.hellodoctor.core.model.ChatMessage
+import com.example.hellodoctor.model.ChatMessage
 import com.example.hellodoctor.core.model.User
 import com.example.hellodoctor.databinding.*
 import com.firebase.ui.database.FirebaseRecyclerAdapter

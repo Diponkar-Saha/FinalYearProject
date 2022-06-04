@@ -1,6 +1,8 @@
 package com.example.hellodoctor.databinding;
 import com.example.hellodoctor.R;
 import com.example.hellodoctor.BR;
+import com.example.hellodoctor.model.ChatMessage;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
@@ -62,7 +64,7 @@ public class ItemChatImageSentBindingImpl extends ItemChatImageSentBinding  {
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.chat == variableId) {
-            setChat((com.example.hellodoctor.core.model.ChatMessage) variable);
+            setChat((ChatMessage) variable);
         }
         else {
             variableSet = false;
@@ -70,7 +72,7 @@ public class ItemChatImageSentBindingImpl extends ItemChatImageSentBinding  {
             return variableSet;
     }
 
-    public void setChat(@Nullable com.example.hellodoctor.core.model.ChatMessage Chat) {
+    public void setChat(@Nullable ChatMessage Chat) {
         this.mChat = Chat;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
@@ -93,7 +95,7 @@ public class ItemChatImageSentBindingImpl extends ItemChatImageSentBinding  {
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
-        com.example.hellodoctor.core.model.ChatMessage chat = mChat;
+        ChatMessage chat = mChat;
         java.lang.String chatImageUrl = null;
 
         if ((dirtyFlags & 0x3L) != 0) {

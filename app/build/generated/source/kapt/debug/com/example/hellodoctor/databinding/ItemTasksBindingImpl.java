@@ -1,5 +1,7 @@
 package com.example.hellodoctor.databinding;
 import com.example.hellodoctor.BR;
+import com.example.hellodoctor.model.Task;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
@@ -59,7 +61,7 @@ public class ItemTasksBindingImpl extends ItemTasksBinding  {
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.task == variableId) {
-            setTask((com.example.hellodoctor.core.model.Task) variable);
+            setTask((Task) variable);
         }
         else {
             variableSet = false;
@@ -67,7 +69,7 @@ public class ItemTasksBindingImpl extends ItemTasksBinding  {
             return variableSet;
     }
 
-    public void setTask(@Nullable com.example.hellodoctor.core.model.Task Task) {
+    public void setTask(@Nullable Task Task) {
         this.mTask = Task;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
@@ -92,7 +94,7 @@ public class ItemTasksBindingImpl extends ItemTasksBinding  {
         }
         java.lang.String taskTitle = null;
         boolean taskCompleted = false;
-        com.example.hellodoctor.core.model.Task task = mTask;
+        Task task = mTask;
 
         if ((dirtyFlags & 0x3L) != 0) {
 

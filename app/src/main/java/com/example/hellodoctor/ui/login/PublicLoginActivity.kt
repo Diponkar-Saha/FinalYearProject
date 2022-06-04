@@ -12,7 +12,7 @@ import com.example.hellodoctor.model.Login
 import com.example.hellodoctor.repositort.FirebaseAuthViewModel
 import com.example.hellodoctor.repositort.Resource
 import com.example.hellodoctor.ui.publicuser.PublUserActivity
-import com.example.hellodoctor.video.ui.splash.SplashScreenActivity
+import com.example.hellodoctor.ui.splash.SplashScreenActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

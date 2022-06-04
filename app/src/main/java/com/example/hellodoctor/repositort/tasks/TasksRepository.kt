@@ -1,7 +1,7 @@
 package com.example.hellodoctor.core.repository.tasks
 
-import com.example.hellodoctor.video.core.Result
-import com.example.hellodoctor.core.model.Task
+import com.example.hellodoctor.core.Result
+import com.example.hellodoctor.model.Task
 import com.example.hellodoctor.utils.safeCall
 import com.google.firebase.database.*
 import com.google.firebase.database.ktx.getValue

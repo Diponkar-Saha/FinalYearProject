@@ -5,7 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.example.hellodoctor.CohortsApplication"
+        android:name="com.example.hellodoctor.HelloDoctorApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -34,7 +34,7 @@
             android:name="com.example.hellodoctor.ui.login.LoginActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.hellodoctor.video.ui.splash.SplashScreenActivity"
+            android:name="com.example.hellodoctor.ui.splash.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,7 +43,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.hellodoctor.video.ui.main.MainActivity"
+            android:name="com.example.hellodoctor.ui.main.MainActivity"
             android:exported="false" />
 
         <meta-data

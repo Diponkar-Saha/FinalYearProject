@@ -1,4 +1,4 @@
-package com.example.hellodoctor.video.ui.cohorts
+package com.example.hellodoctor.ui.cohorts
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,12 +12,8 @@ import androidx.navigation.fragment.FragmentNavigatorExtras
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.hellodoctor.databinding.FragmentCohortsBinding
-import com.example.hellodoctor.core.model.Cohort
-import com.example.hellodoctor.ui.cohorts.CohortsAdapter
-import com.example.hellodoctor.ui.cohorts.CohortsViewModel
-import com.example.hellodoctor.ui.cohorts.ExtendedFloatingActionButtonScrollListener
-import com.example.hellodoctor.utils.snackbar
-import com.example.hellodoctor.video.ui.main.MainActivity
+import com.example.hellodoctor.model.Cohort
+import com.example.hellodoctor.ui.main.MainActivity
 import com.firebase.ui.firestore.FirestoreRecyclerOptions
 import dagger.hilt.android.AndroidEntryPoint
 import timber.log.Timber

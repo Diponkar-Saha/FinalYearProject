@@ -1,6 +1,9 @@
 package com.example.hellodoctor.ui.login;
 
 import androidx.lifecycle.ViewModel;
+
+import com.example.hellodoctor.viewmodel.LoginViewModel;
+
 import dagger.Binds;
 import dagger.Module;
 import dagger.Provides;

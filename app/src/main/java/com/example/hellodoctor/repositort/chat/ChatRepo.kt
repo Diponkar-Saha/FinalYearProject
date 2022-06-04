@@ -1,8 +1,8 @@
 package com.example.hellodoctor.core.repository.chat
 
 import android.net.Uri
-import com.example.hellodoctor.video.core.Result
-import com.example.hellodoctor.core.model.ChatMessage
+import com.example.hellodoctor.core.Result
+import com.example.hellodoctor.model.ChatMessage
 import com.google.firebase.database.DatabaseReference
 
 

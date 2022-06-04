@@ -6,7 +6,7 @@
     <data>
         <variable
             name="task"
-            type="com.example.hellodoctor.core.model.Task" />
+            type="com.example.hellodoctor.model.Task" />
 
     </data>
 

@@ -1,6 +1,8 @@
 package com.example.hellodoctor.databinding;
 import com.example.hellodoctor.R;
 import com.example.hellodoctor.BR;
+import com.example.hellodoctor.model.Cohort;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
@@ -68,7 +70,7 @@ public class ItemCohortBindingImpl extends ItemCohortBinding  {
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.cohort == variableId) {
-            setCohort((com.example.hellodoctor.core.model.Cohort) variable);
+            setCohort((Cohort) variable);
         }
         else {
             variableSet = false;
@@ -76,7 +78,7 @@ public class ItemCohortBindingImpl extends ItemCohortBinding  {
             return variableSet;
     }
 
-    public void setCohort(@Nullable com.example.hellodoctor.core.model.Cohort Cohort) {
+    public void setCohort(@Nullable Cohort Cohort) {
         this.mCohort = Cohort;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
@@ -100,7 +102,7 @@ public class ItemCohortBindingImpl extends ItemCohortBinding  {
             mDirtyFlags = 0;
         }
         java.lang.String cohortCohortName = null;
-        com.example.hellodoctor.core.model.Cohort cohort = mCohort;
+        Cohort cohort = mCohort;
         boolean cohortCallOngoing = false;
         java.lang.String cohortCohortDescription = null;
         int cohortNumberOfMembers = 0;

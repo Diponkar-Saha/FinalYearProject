@@ -1,7 +1,7 @@
 package com.example.hellodoctor.core.repository.cohorts
 
-import com.example.hellodoctor.video.core.Result
-import com.example.hellodoctor.core.model.Cohort
+import com.example.hellodoctor.core.Result
+import com.example.hellodoctor.model.Cohort
 import com.example.hellodoctor.core.model.User
 import com.google.firebase.firestore.Query
 

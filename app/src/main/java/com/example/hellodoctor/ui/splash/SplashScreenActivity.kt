@@ -1,4 +1,4 @@
-package com.example.hellodoctor.video.ui.splash
+package com.example.hellodoctor.ui.splash
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -12,8 +12,7 @@ import androidx.lifecycle.lifecycleScope
 import com.example.hellodoctor.ui.login.PublicLoginActivity
 import com.example.hellodoctor.R
 import com.example.hellodoctor.databinding.ActivitySplashScreenBinding
-import com.example.hellodoctor.video.ui.main.MainActivity
-import com.example.hellodoctor.ui.splash.SplashViewModel
+import com.example.hellodoctor.ui.main.MainActivity
 import com.example.hellodoctor.utils.Theme
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay

@@ -1,10 +1,10 @@
 package com.example.hellodoctor.ui.tasks
 
 import androidx.lifecycle.*
-import com.example.hellodoctor.video.core.Result
-import com.example.hellodoctor.core.model.Task
+import com.example.hellodoctor.core.Result
+import com.example.hellodoctor.model.Task
 import com.example.hellodoctor.core.repository.tasks.TasksRepo
-import com.example.hellodoctor.video.core.succeeded
+import com.example.hellodoctor.core.succeeded
 import com.example.hellodoctor.utils.Event
 import com.google.firebase.database.DatabaseReference
 import dagger.hilt.android.lifecycle.HiltViewModel

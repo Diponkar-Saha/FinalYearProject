@@ -1,4 +1,4 @@
-package com.example.hellodoctor.video.ui.cohorts.newcohort;
+package com.example.hellodoctor.ui.cohorts.newcohort;
 
 import dagger.hilt.InstallIn;
 import dagger.hilt.android.components.FragmentComponent;

@@ -15,11 +15,10 @@ import androidx.navigation.fragment.FragmentNavigatorExtras
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.hellodoctor.R
-import com.example.hellodoctor.core.model.ChatMessage
-import com.example.hellodoctor.core.model.Cohort
+import com.example.hellodoctor.model.ChatMessage
+import com.example.hellodoctor.model.Cohort
 import com.example.hellodoctor.databinding.FragmentChatBinding
-import com.example.hellodoctor.utils.snackbar
-import com.example.hellodoctor.video.ui.main.MainActivity
+import com.example.hellodoctor.ui.main.MainActivity
 import com.example.hellodoctor.utils.themeColor
 import com.firebase.ui.database.FirebaseRecyclerOptions
 import com.google.android.material.dialog.MaterialAlertDialogBuilder

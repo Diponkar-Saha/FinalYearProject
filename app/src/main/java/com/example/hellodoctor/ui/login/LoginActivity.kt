@@ -9,8 +9,8 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import com.example.hellodoctor.R
 import com.example.hellodoctor.databinding.ActivityLoginBinding
-import com.example.hellodoctor.utils.snackbar
-import com.example.hellodoctor.video.ui.main.MainActivity
+import com.example.hellodoctor.ui.main.MainActivity
+import com.example.hellodoctor.viewmodel.LoginViewModel
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.IdpResponse
 import dagger.hilt.android.AndroidEntryPoint

@@ -1,4 +1,4 @@
-package com.example.hellodoctor.video.utils
+package com.example.hellodoctor.utils
 
 class Constants {
     companion object {//https://hellodoctorr.herokuapp.com

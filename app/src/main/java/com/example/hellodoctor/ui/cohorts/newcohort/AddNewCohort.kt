@@ -1,4 +1,4 @@
-package com.example.hellodoctor.video.ui.cohorts.newcohort
+package com.example.hellodoctor.ui.cohorts.newcohort
 
 import android.os.Bundle
 import android.os.CountDownTimer
@@ -11,9 +11,7 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
 import com.example.hellodoctor.R
 import com.example.hellodoctor.databinding.FragmentAddNewCohortBinding
-import com.example.hellodoctor.core.model.Cohort
-import com.example.hellodoctor.ui.cohorts.newcohort.AddNewCohortViewModel
-import com.example.hellodoctor.utils.snackbar
+import com.example.hellodoctor.model.Cohort
 import dagger.hilt.android.AndroidEntryPoint
 
 /**

@@ -2,7 +2,7 @@ package com.example.hellodoctor
 
 import com.example.hellodoctor.model.*
 import com.example.hellodoctor.model.response.LoginResponse
-import com.example.hellodoctor.video.utils.Constants
+import com.example.hellodoctor.utils.Constants
 import com.example.hellodoctor.model.doctorprofile.DoctorProfileResponse
 import com.example.hellodoctor.model.report.ReportList
 import com.example.hellodoctor.model.report.rr.rr

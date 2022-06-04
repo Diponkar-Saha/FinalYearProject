@@ -58,7 +58,7 @@ import com.example.hellodoctor.ui.login.DrLoginActivity;
 import com.example.hellodoctor.ui.login.Login1ViewModel;
 import com.example.hellodoctor.ui.login.Login1ViewModel_HiltModules_KeyModule_ProvideFactory;
 import com.example.hellodoctor.ui.login.LoginActivity;
-import com.example.hellodoctor.ui.login.LoginViewModel;
+import com.example.hellodoctor.viewmodel.LoginViewModel;
 import com.example.hellodoctor.ui.login.LoginViewModel_HiltModules_KeyModule_ProvideFactory;
 import com.example.hellodoctor.ui.login.PublicLoginActivity;
 import com.example.hellodoctor.ui.main.MainViewModel;
@@ -86,11 +86,11 @@ import com.example.hellodoctor.ui.tasks.addNewTask.AddNewTaskViewModel_HiltModul
 import com.example.hellodoctor.ui.tasks.taskdetail.TaskDetailFragment;
 import com.example.hellodoctor.ui.tasks.taskdetail.TaskDetailViewModel;
 import com.example.hellodoctor.ui.tasks.taskdetail.TaskDetailViewModel_HiltModules_KeyModule_ProvideFactory;
-import com.example.hellodoctor.video.ui.cohorts.CohortsFragment;
-import com.example.hellodoctor.video.ui.cohorts.newcohort.AddNewCohort;
-import com.example.hellodoctor.video.ui.info.CohortInfoFragment;
-import com.example.hellodoctor.video.ui.main.MainActivity;
-import com.example.hellodoctor.video.ui.splash.SplashScreenActivity;
+import com.example.hellodoctor.ui.cohorts.CohortsFragment;
+import com.example.hellodoctor.ui.cohorts.newcohort.AddNewCohort;
+import com.example.hellodoctor.ui.info.CohortInfoFragment;
+import com.example.hellodoctor.ui.main.MainActivity;
+import com.example.hellodoctor.ui.splash.SplashScreenActivity;
 import com.example.hellodoctor.viewmodel.DoctorRepository;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableSet;
@@ -346,7 +346,7 @@ public final class DaggerCohortsApplication_HiltComponents_SingletonC extends Co
   }
 
   @Override
-  public void injectCohortsApplication(CohortsApplication cohortsApplication) {
+  public void injectCohortsApplication(HelloDoctorApplication helloDoctorApplication) {
   }
 
   @Override

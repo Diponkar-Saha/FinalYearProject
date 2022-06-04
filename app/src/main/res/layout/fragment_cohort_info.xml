@@ -6,7 +6,7 @@
     <data>
         <variable
             name="cohort"
-            type="com.example.hellodoctor.core.model.Cohort" />
+            type="com.example.hellodoctor.model.Cohort" />
     </data>
 
     <LinearLayout

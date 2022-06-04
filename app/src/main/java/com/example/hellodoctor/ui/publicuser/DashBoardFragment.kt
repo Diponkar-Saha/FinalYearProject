@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.hellodoctor.databinding.FragmentDashBoardBinding
-import com.example.hellodoctor.video.ui.main.MainActivity
+import com.example.hellodoctor.ui.main.MainActivity
 
 
 class DashBoardFragment : Fragment() {

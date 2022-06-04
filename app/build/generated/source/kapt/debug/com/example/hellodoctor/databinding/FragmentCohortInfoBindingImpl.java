@@ -1,6 +1,8 @@
 package com.example.hellodoctor.databinding;
 import com.example.hellodoctor.R;
 import com.example.hellodoctor.BR;
+import com.example.hellodoctor.model.Cohort;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
@@ -78,7 +80,7 @@ public class FragmentCohortInfoBindingImpl extends FragmentCohortInfoBinding  {
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.cohort == variableId) {
-            setCohort((com.example.hellodoctor.core.model.Cohort) variable);
+            setCohort((Cohort) variable);
         }
         else {
             variableSet = false;
@@ -86,7 +88,7 @@ public class FragmentCohortInfoBindingImpl extends FragmentCohortInfoBinding  {
             return variableSet;
     }
 
-    public void setCohort(@Nullable com.example.hellodoctor.core.model.Cohort Cohort) {
+    public void setCohort(@Nullable Cohort Cohort) {
         this.mCohort = Cohort;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
@@ -110,7 +112,7 @@ public class FragmentCohortInfoBindingImpl extends FragmentCohortInfoBinding  {
             mDirtyFlags = 0;
         }
         java.lang.String cohortCohortName = null;
-        com.example.hellodoctor.core.model.Cohort cohort = mCohort;
+        Cohort cohort = mCohort;
         java.lang.String cohortCohortDescription = null;
 
         if ((dirtyFlags & 0x3L) != 0) {

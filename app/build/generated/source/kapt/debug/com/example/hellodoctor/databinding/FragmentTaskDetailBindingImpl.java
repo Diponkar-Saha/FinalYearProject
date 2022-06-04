@@ -1,6 +1,8 @@
 package com.example.hellodoctor.databinding;
 import com.example.hellodoctor.R;
 import com.example.hellodoctor.BR;
+import com.example.hellodoctor.model.Task;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
@@ -74,7 +76,7 @@ public class FragmentTaskDetailBindingImpl extends FragmentTaskDetailBinding  {
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.task == variableId) {
-            setTask((com.example.hellodoctor.core.model.Task) variable);
+            setTask((Task) variable);
         }
         else if (BR.isEditing == variableId) {
             setIsEditing((java.lang.Boolean) variable);
@@ -85,7 +87,7 @@ public class FragmentTaskDetailBindingImpl extends FragmentTaskDetailBinding  {
             return variableSet;
     }
 
-    public void setTask(@Nullable com.example.hellodoctor.core.model.Task Task) {
+    public void setTask(@Nullable Task Task) {
         this.mTask = Task;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
@@ -123,7 +125,7 @@ public class FragmentTaskDetailBindingImpl extends FragmentTaskDetailBinding  {
         boolean androidxDatabindingViewDataBindingSafeUnboxIsEditing = false;
         boolean AndroidxDatabindingViewDataBindingSafeUnboxIsEditing1 = false;
         int isEditingViewGONEViewVISIBLE = 0;
-        com.example.hellodoctor.core.model.Task task = mTask;
+        Task task = mTask;
         java.lang.Boolean IsEditing1 = mIsEditing;
         int isEditingViewVISIBLEViewGONE = 0;
 

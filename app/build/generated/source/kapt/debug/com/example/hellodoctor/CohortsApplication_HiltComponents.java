@@ -42,11 +42,11 @@ import com.example.hellodoctor.ui.tasks.addNewTask.AddNewTaskFragment_GeneratedI
 import com.example.hellodoctor.ui.tasks.addNewTask.AddNewTaskViewModel_HiltModules;
 import com.example.hellodoctor.ui.tasks.taskdetail.TaskDetailFragment_GeneratedInjector;
 import com.example.hellodoctor.ui.tasks.taskdetail.TaskDetailViewModel_HiltModules;
-import com.example.hellodoctor.video.ui.cohorts.CohortsFragment_GeneratedInjector;
-import com.example.hellodoctor.video.ui.cohorts.newcohort.AddNewCohort_GeneratedInjector;
-import com.example.hellodoctor.video.ui.info.CohortInfoFragment_GeneratedInjector;
-import com.example.hellodoctor.video.ui.main.MainActivity_GeneratedInjector;
-import com.example.hellodoctor.video.ui.splash.SplashScreenActivity_GeneratedInjector;
+import com.example.hellodoctor.ui.cohorts.CohortsFragment_GeneratedInjector;
+import com.example.hellodoctor.ui.cohorts.newcohort.AddNewCohort_GeneratedInjector;
+import com.example.hellodoctor.ui.info.CohortInfoFragment_GeneratedInjector;
+import com.example.hellodoctor.ui.main.MainActivity_GeneratedInjector;
+import com.example.hellodoctor.ui.splash.SplashScreenActivity_GeneratedInjector;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;

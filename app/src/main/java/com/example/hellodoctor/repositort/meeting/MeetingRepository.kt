@@ -1,10 +1,10 @@
 package com.example.hellodoctor.core.repository.meeting
 
-import com.example.hellodoctor.video.core.Result
-import com.example.hellodoctor.core.model.Cohort
+import com.example.hellodoctor.core.Result
+import com.example.hellodoctor.model.Cohort
 import com.example.hellodoctor.core.model.User
 import com.example.hellodoctor.core.model.mapToUserObject
-import com.example.hellodoctor.video.core.succeeded
+import com.example.hellodoctor.core.succeeded
 import com.example.hellodoctor.utils.safeCall
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FieldValue

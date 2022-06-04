@@ -16,7 +16,7 @@ import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
 import com.example.hellodoctor.databinding.FragmentDoctorProfileEditBinding
 import com.example.hellodoctor.model.DoctorProfile
-import com.example.hellodoctor.video.utils.Constants
+import com.example.hellodoctor.utils.Constants
 import com.google.android.gms.tasks.Continuation
 import com.google.android.gms.tasks.Task
 import com.google.firebase.storage.FirebaseStorage

@@ -1,4 +1,4 @@
-package com.example.hellodoctor.video.ui.main;
+package com.example.hellodoctor.ui.main;
 
 import dagger.hilt.InstallIn;
 import dagger.hilt.android.components.ActivityComponent;

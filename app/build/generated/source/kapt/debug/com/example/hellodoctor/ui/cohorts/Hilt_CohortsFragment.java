@@ -1,4 +1,4 @@
-package com.example.hellodoctor.video.ui.cohorts;
+package com.example.hellodoctor.ui.cohorts;
 
 import android.app.Activity;
 import android.content.Context;

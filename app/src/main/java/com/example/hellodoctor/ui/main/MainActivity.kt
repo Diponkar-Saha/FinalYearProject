@@ -1,4 +1,4 @@
-package com.example.hellodoctor.video.ui.main
+package com.example.hellodoctor.ui.main
 
 import android.content.Context
 import android.content.Intent
@@ -19,9 +19,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.hellodoctor.R
 import com.example.hellodoctor.databinding.ActivityMainBinding
 import com.example.hellodoctor.ui.login.PublicLoginActivity
-import com.example.hellodoctor.ui.main.MainViewModel
 import com.example.hellodoctor.utils.Theme
-import com.example.hellodoctor.utils.snackbar
 import com.example.hellodoctor.utils.toTheme
 import com.firebase.ui.auth.AuthUI
 import com.google.android.material.dialog.MaterialAlertDialogBuilder

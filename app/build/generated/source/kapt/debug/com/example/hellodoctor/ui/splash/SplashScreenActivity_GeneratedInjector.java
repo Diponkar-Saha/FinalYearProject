@@ -1,4 +1,4 @@
-package com.example.hellodoctor.video.ui.splash;
+package com.example.hellodoctor.ui.splash;
 
 import dagger.hilt.InstallIn;
 import dagger.hilt.android.components.ActivityComponent;

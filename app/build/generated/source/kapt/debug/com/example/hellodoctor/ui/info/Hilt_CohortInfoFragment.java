@@ -1,4 +1,4 @@
-package com.example.hellodoctor.video.ui.info;
+package com.example.hellodoctor.ui.info;
 
 import android.app.Activity;
 import android.content.Context;

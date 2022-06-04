@@ -6,7 +6,7 @@
     <data>
         <variable
             name="chat"
-            type="com.example.hellodoctor.core.model.ChatMessage" />
+            type="com.example.hellodoctor.model.ChatMessage" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

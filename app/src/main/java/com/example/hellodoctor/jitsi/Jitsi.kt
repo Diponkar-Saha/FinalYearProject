@@ -1,4 +1,4 @@
-package com.example.hellodoctor.video.jitsi
+package com.example.hellodoctor.jitsi
 
 import android.content.Context
 import android.content.Intent

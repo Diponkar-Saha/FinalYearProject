@@ -3,10 +3,10 @@ package com.example.hellodoctor.ui.tasks.taskdetail
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.hellodoctor.video.core.Result
-import com.example.hellodoctor.core.model.Task
+import com.example.hellodoctor.core.Result
+import com.example.hellodoctor.model.Task
 import com.example.hellodoctor.core.repository.tasks.TasksRepo
-import com.example.hellodoctor.video.core.succeeded
+import com.example.hellodoctor.core.succeeded
 import com.example.hellodoctor.utils.Event
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineDispatcher

@@ -3,10 +3,10 @@ package com.example.hellodoctor.ui.profile
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.hellodoctor.video.core.Result
+import com.example.hellodoctor.core.Result
 import com.example.hellodoctor.core.model.User
 import com.example.hellodoctor.core.repository.user.UserRepo
-import com.example.hellodoctor.video.core.succeeded
+import com.example.hellodoctor.core.succeeded
 import com.example.hellodoctor.utils.Event
 import dagger.hilt.android.lifecycle.HiltViewModel
 import timber.log.Timber

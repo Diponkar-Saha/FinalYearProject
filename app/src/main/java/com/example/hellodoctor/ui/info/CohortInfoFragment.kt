@@ -1,4 +1,4 @@
-package com.example.hellodoctor.video.ui.info
+package com.example.hellodoctor.ui.info
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,12 +9,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.hellodoctor.core.model.Cohort
+import com.example.hellodoctor.model.Cohort
 import com.example.hellodoctor.core.model.User
 import com.example.hellodoctor.databinding.FragmentCohortInfoBinding
-import com.example.hellodoctor.ui.info.CohortInfoViewModel
-import com.example.hellodoctor.ui.info.UserInfoAdapter
-import com.example.hellodoctor.utils.snackbar
 import com.firebase.ui.firestore.FirestoreRecyclerOptions
 import com.google.android.material.button.MaterialButton
 import dagger.hilt.android.AndroidEntryPoint

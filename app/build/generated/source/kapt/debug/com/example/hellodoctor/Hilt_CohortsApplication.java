@@ -38,7 +38,7 @@ public abstract class Hilt_CohortsApplication extends Application implements Gen
   public void onCreate() {
     // This is a known unsafe cast, but is safe in the only correct use case:
     // CohortsApplication extends Hilt_CohortsApplication
-    ((CohortsApplication_GeneratedInjector) generatedComponent()).injectCohortsApplication(UnsafeCasts.<CohortsApplication>unsafeCast(this));
+    ((CohortsApplication_GeneratedInjector) generatedComponent()).injectCohortsApplication(UnsafeCasts.<HelloDoctorApplication>unsafeCast(this));
     super.onCreate();
   }
 }

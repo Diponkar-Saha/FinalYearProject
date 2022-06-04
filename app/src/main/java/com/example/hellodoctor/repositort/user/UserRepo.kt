@@ -1,6 +1,6 @@
 package com.example.hellodoctor.core.repository.user
 
-import com.example.hellodoctor.video.core.Result
+import com.example.hellodoctor.core.Result
 import com.example.hellodoctor.core.model.User
 
 

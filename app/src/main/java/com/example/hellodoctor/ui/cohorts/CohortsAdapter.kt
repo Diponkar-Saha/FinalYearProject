@@ -5,7 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.hellodoctor.databinding.ItemCohortBinding
-import com.example.hellodoctor.core.model.Cohort
+import com.example.hellodoctor.model.Cohort
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter
 import com.firebase.ui.firestore.FirestoreRecyclerOptions

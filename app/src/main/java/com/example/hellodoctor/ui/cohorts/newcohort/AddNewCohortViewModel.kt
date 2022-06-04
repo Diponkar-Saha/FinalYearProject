@@ -4,8 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.hellodoctor.core.Result
-import com.example.hellodoctor.core.model.Cohort
+import com.example.hellodoctor.model.Cohort
 import com.example.hellodoctor.core.repository.cohorts.CohortsRepo
 import com.example.hellodoctor.core.succeeded
 import com.example.hellodoctor.utils.Event

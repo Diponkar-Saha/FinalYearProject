@@ -10,8 +10,8 @@ import androidx.lifecycle.Observer
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
 import com.example.hellodoctor.R
-import com.example.hellodoctor.core.model.Cohort
-import com.example.hellodoctor.core.model.Task
+import com.example.hellodoctor.model.Cohort
+import com.example.hellodoctor.model.Task
 import com.example.hellodoctor.databinding.FragmentAddNewTaskBinding
 import com.example.hellodoctor.utils.snackbar
 import dagger.hilt.android.AndroidEntryPoint

@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/cohortsFragment"
-        android:name="com.example.hellodoctor.video.ui.cohorts.CohortsFragment"
+        android:name="com.example.hellodoctor.ui.cohorts.CohortsFragment"
         android:label="@string/cohort_label">
         <action
             android:id="@+id/cohorts_to_addNewCohorts"
@@ -93,7 +93,7 @@
 
     <fragment
         android:id="@+id/addNewCohort"
-        android:name="com.example.hellodoctor.video.ui.cohorts.newcohort.AddNewCohort"
+        android:name="com.example.hellodoctor.ui.cohorts.newcohort.AddNewCohort"
         android:label="@string/add_new_cohort" />
 
     <dialog
@@ -109,7 +109,7 @@
 
     <fragment
         android:id="@+id/cohortInfoFragment"
-        android:name="com.example.hellodoctor.video.ui.info.CohortInfoFragment"
+        android:name="com.example.hellodoctor.ui.info.CohortInfoFragment"
         android:label="Info" >
         <argument
             android:name="cohort"

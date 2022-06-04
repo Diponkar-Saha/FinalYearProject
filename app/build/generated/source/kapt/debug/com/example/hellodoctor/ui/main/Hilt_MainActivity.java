@@ -1,4 +1,4 @@
-package com.example.hellodoctor.video.ui.main;
+package com.example.hellodoctor.ui.main;
 
 import android.content.Context;
 import androidx.activity.contextaware.OnContextAvailableListener;

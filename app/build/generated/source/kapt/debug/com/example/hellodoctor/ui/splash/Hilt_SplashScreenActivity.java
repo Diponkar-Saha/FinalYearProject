@@ -1,4 +1,4 @@
-package com.example.hellodoctor.video.ui.splash;
+package com.example.hellodoctor.ui.splash;
 
 import android.content.Context;
 import androidx.activity.contextaware.OnContextAvailableListener;

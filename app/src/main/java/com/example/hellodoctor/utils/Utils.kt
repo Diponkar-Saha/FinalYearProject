@@ -8,7 +8,7 @@ import android.view.View
 import androidx.annotation.AttrRes
 import androidx.annotation.ColorInt
 import androidx.core.content.res.use
-import com.example.hellodoctor.video.core.Result
+import com.example.hellodoctor.core.Result
 import com.google.android.material.snackbar.Snackbar
 
 

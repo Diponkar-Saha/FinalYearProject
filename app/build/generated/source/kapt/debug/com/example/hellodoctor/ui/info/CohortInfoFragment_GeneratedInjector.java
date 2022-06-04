@@ -1,4 +1,4 @@
-package com.example.hellodoctor.video.ui.info;
+package com.example.hellodoctor.ui.info;
 
 import dagger.hilt.InstallIn;
 import dagger.hilt.android.components.FragmentComponent;

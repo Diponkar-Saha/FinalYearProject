@@ -3,7 +3,7 @@ package com.example.hellodoctor.ui.tasks
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.hellodoctor.core.model.Task
+import com.example.hellodoctor.model.Task
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.example.hellodoctor.databinding.ItemTasksBinding
 import com.firebase.ui.database.FirebaseRecyclerAdapter

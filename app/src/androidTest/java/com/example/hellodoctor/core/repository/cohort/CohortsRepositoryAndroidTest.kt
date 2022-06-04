@@ -3,11 +3,11 @@ package com.example.hellodoctor.core.repository.cohort
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.test.espresso.matcher.ViewMatchers.assertThat
 import androidx.test.filters.MediumTest
-import com.example.hellodoctor.video.core.Result
-import com.example.hellodoctor.core.model.Cohort
+import com.example.hellodoctor.core.Result
+import com.example.hellodoctor.model.Cohort
 import com.example.hellodoctor.core.model.User
 import com.example.hellodoctor.core.repository.cohorts.CohortsRepository
-import com.example.hellodoctor.video.core.succeeded
+import com.example.hellodoctor.core.succeeded
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FieldValue
 import com.google.firebase.firestore.FirebaseFirestore

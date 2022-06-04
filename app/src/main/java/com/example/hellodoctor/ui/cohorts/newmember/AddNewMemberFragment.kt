@@ -8,10 +8,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import com.example.hellodoctor.databinding.FragmentAddNewMemberBinding
-import com.example.hellodoctor.core.model.Cohort
-import com.example.hellodoctor.utils.snackbar
+import com.example.hellodoctor.model.Cohort
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 import timber.log.Timber
 
